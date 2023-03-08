@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:visible="false"
+        android:title="Admin Dashboard" />
+
+    <item
+        android:id="@+id/nav_appointments"
+        android:icon="@drawable/ic_myfeed"
+        android:title="My Appointments" />
+
+    <item android:title="Actions">
+        <menu>
+            <group android:checkableBehavior="single">
+
+            <item
+                android:visible="false"
+                android:id="@+id/nav_allUsers"
+                android:icon="@drawable/ic_people"
+                android:title="All App Users" />
+            <item
+                android:visible="false"
+                android:id="@+id/nav_patients"
+                android:icon="@drawable/patient"
+                android:title="Patients" />
+            <item
+                android:visible="false"
+                android:id="@+id/nav_doctors"
+                android:icon="@drawable/doctor"
+                android:title="Doctors" />
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile"
+                android:title="Profile" />
+            <item
+                android:id="@+id/nav_notifications"
+                android:icon="@drawable/ic_notifications"
+                android:title="Notifications" />
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Log Out" />
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_about"
+                android:title="About This App" />
+            </group>
+        </menu>
+    </item>
+</menu>

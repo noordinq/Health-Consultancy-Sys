@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Health Advisory App</string>
+    <string name="welcome">Welcome</string>
+    <string name="select_one">Select One</string>
+    <string name="patientt_registration">Patient Registration</string>
+    <string name="doctor_registration">Doctor Registration</string>
+    <string name="alreadyy_have_an_account_login">Already have an account? Login</string>
+    <string name="patient_registration">Patient Registration</string>
+    <string name="enter_your_password">Enter your Password</string>
+    <string name="enter_your_full_name">Enter your full name</string>
+    <string name="enter_your_e_mail">Enter your E-mail</string>
+    <string name="enter_your_phone_number">Enter your phone Number</string>
+    <string name="enter_your_location">Enter your Location</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account_login">Already have an account? Login</string>
+    <string name="title_activity_maps">MapsActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string-array name="Timeframes">
+        <item> Select time your are available:  </item>
+        <item> 7 - 9am </item>
+        <item> 9 - 11am </item>
+        <item> 11 - 1pm </item>
+        <item> 1 - 3pm </item>
+        <item> 3 - 5pm </item>
+        <item> 5 - 7pm </item>
+        <item> Night Shift </item>
+    </string-array>
+
+    <string-array name="Departments">
+        <item> Select your department:  </item>
+        <item> Cardiology </item>
+        <item> Dentristy </item>
+        <item> Gynaecology </item>
+        <item> Medical </item>
+        <item> Nursing </item>
+        <item> Nutrition </item>
+        <item> Paramedics </item>
+        <item> Psychiatry </item>
+        <item> Radiology </item>
+        <item> Skin </item>
+    </string-array>
+
+    <string-array name="Specialization">
+        <item> Select your respective specialty:  </item>
+        <item> Dermatology</item>
+        <item> Emergency Medicine </item>
+        <item> General Surgery</item>
+        <item> Gynecology </item>
+        <item> Internal Medicine </item>
+        <item> Nutrition </item>
+        <item> Opthalmology n Eye </item>
+        <item> Pathology </item>
+        <item> Psychiatry </item>
+    </string-array>
+</resources>

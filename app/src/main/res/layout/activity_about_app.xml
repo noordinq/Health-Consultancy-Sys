@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.AboutAppActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#FF3700B3"
+        android:id="@+id/settingsToolbar"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:elevation="4dp">
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#000"
+        android:text="I proposed creating this health system that solves the current problems of congestion in hospitals. As the situation currently stands, patients have to queue in hospital corridays awaiting their turn to see a doctor.\n\n
+ This scenario is not only tiring, it also does not give any assurance that all patients will be attended to. Some patients might spend hours on those queues only to be requested to come back and re-live the whole torture all over again. In addition, this becomes extremely expensive for such families considering they have to incur the costs of medication still. \n\n
+Furthermore, doctors and their receptionists feel overwhelmed by the lack of an efficient systems that set the scenery to order.
+This health system will be able to improve the hospital’s current means of operation by;\n\n
+•	Letting patients register in the system\n
+•	Allowing patients to book appointment sets online at preferred dates and times\n
+•	Doctors can maintain and manage  appointments
+"
+        android:textStyle="italic"
+        android:textSize="18dp"/>
+
+</LinearLayout>
